@@ -25,6 +25,7 @@ game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args
 
 Tab:AddButton({
 	Name = "get utc",
+	Callback = function()
 local args = {
     [1] = "Upgraded Titan Cameraman",
     [2] = 0
@@ -32,7 +33,6 @@ local args = {
  
 game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
  
-	Callback = function()
       		print("button pressed")
   	end    
 })
