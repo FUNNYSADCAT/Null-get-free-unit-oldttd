@@ -152,6 +152,34 @@ game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args
   	end    
 })
 
+Tab:AddButton({
+	Name = "Scientist Cameraman",
+	Callback = function()
+local args = {
+    [1] = "Scientist Cameraman",
+    [2] = 0
+}
+ 
+game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
+ 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Titan Cameraman",
+	Callback = function()
+local args = {
+    [1] = "Titan Cameraman",
+    [2] = 0
+}
+ 
+game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
+ 
+      		print("button pressed")
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "coin",
 	Icon = "rbxassetid://4483345998",
