@@ -10,15 +10,23 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "get Engineer Cameraman",
+	Name = "get Cinemaman",
 	Callback = function()
 local args = {
-    [1] = "Engineer Cameraman",
+    [1] = "Titan Cinemaman",
     [2] = 0
 }
  
 game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
  
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "get utc",
+
+	Callback = function()
       		print("button pressed")
   	end    
 })
