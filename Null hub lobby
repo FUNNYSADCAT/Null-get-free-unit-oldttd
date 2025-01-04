@@ -161,7 +161,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "get coin(sell titan tv)",
 	Callback = function()
-local args = { [1] = "Titan TV Man", [2] = -100 } game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args)) 
+local args = { [1] = "Titan TV Man", [2] = -10000 } game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args)) 
       		print("button pressed")
   	end    
 })
