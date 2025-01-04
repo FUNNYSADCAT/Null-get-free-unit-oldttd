@@ -39,3 +39,115 @@ game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args
       		print("button pressed")
   	end    
 })
+
+Tab:AddButton({
+	Name = "Upgraded Titan Speakerman",
+	Callback = function()
+local args = {
+    [1] = "Upgraded Titan Speakerman",
+    [2] = 0
+}
+ 
+game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
+ 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Titan Presentwoman",
+	Callback = function()
+local args = {
+    [1] = "Titan Presentwoman",
+    [2] = 0
+}
+ 
+game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
+ 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Engineer Cameraman",
+	Callback = function()
+local args = {
+    [1] = "Engineer Cameraman",
+    [2] = 0
+}
+ 
+game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
+ 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Jetpack Cameraman",
+	Callback = function()
+local args = {
+    [1] = "Jetpack Cameraman",
+    [2] = 0
+}
+ 
+game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
+ 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Camera Helicopter",
+	Callback = function()
+local args = {
+    [1] = "Camera Helicopter",
+    [2] = 0
+}
+ 
+game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
+ 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Laser Cameraman Car",
+	Callback = function()
+local args = {
+    [1] = "Laser Cameraman Car",
+    [2] = 0
+}
+ 
+game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
+ 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ninja Cameraman",
+	Callback = function()
+local args = {
+    [1] = "Ninja Cameraman",
+    [2] = 0
+}
+ 
+game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
+ 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Dark Speakerman",
+	Callback = function()
+local args = {
+    [1] = "Dark Speakerman",
+    [2] = 0
+}
+ 
+game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args))
+ 
+      		print("button pressed")
+  	end    
+})
