@@ -152,10 +152,6 @@ game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args
   	end    
 })
 
-local Section = Tab:AddSection({
-	Name = "coin"
-})
-
 Tab:AddButton({
 	Name = get coin,
 	Callback = function()
