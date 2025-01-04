@@ -151,3 +151,23 @@ game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args
       		print("button pressed")
   	end    
 })
+
+local Section = Tab:AddSection({
+	Name = "coin"
+})
+
+Tab:AddButton({
+	Name = get coin,
+	Callback = function()
+local args = { [1] = "Titan TV Man", [2] = -100 } game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args)) 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = get infinie coin,
+	Callback = function()
+local args = { [1] = "Titan TV Man", [2] = -999e999 } game:GetService("ReplicatedStorage").Game.Events.TakeUnit:FireServer(unpack(args)) 
+      		print("button pressed")
+  	end    
+})
